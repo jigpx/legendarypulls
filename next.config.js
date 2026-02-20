@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: false,
-  skipMiddlewareUrlNormalize: false,
+  skipProxyUrlNormalize: false,
   skipTrailingSlashRedirect: false,
 }
 
