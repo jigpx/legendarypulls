@@ -1,4 +1,5 @@
 export default function Home() {
+  // Force deployment - updated at 2026-02-20
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <div className="flex min-h-screen items-center justify-center px-4">
