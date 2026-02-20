@@ -5,35 +5,34 @@ export default function Home() {
       <div className="flex min-h-screen items-center justify-center px-4">
         <div className="text-center">
           {/* Main Title */}
-          <h1 className="text-6xl md:text-8xl font-bold text-white mb-8">
+          <h1 className="mb-8 text-6xl font-bold text-white md:text-8xl">
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               Legendary
             </span>
             <br />
-            <span className="text-white">
-              Pulls
-            </span>
+            <span className="text-white">Pulls</span>
           </h1>
-          
+
           {/* Under Construction Message */}
           <div className="mb-12">
-            <div className="inline-flex items-center px-6 py-3 rounded-full bg-yellow-500/20 border border-yellow-500/30 mb-4">
-              <div className="w-3 h-3 bg-yellow-400 rounded-full animate-pulse mr-3"></div>
-              <span className="text-yellow-200 font-medium text-lg">
+            <div className="mb-4 inline-flex items-center rounded-full border border-yellow-500/30 bg-yellow-500/20 px-6 py-3">
+              <div className="mr-3 h-3 w-3 animate-pulse rounded-full bg-yellow-400"></div>
+              <span className="text-lg font-medium text-yellow-200">
                 Under Construction
               </span>
             </div>
-            <p className="text-slate-300 text-xl max-w-md mx-auto leading-relaxed">
-              We're working hard to bring you something amazing. Stay tuned for legendary pull requests!
+            <p className="mx-auto max-w-md text-xl leading-relaxed text-slate-300">
+              We're working hard to bring you something amazing. Stay tuned for
+              legendary pull requests!
             </p>
           </div>
 
           {/* Coming Soon Badge */}
-          <div className="text-slate-400 text-sm font-medium tracking-wider uppercase">
+          <div className="text-sm font-medium uppercase tracking-wider text-slate-400">
             Coming Soon
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
